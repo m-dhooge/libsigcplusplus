@@ -574,7 +574,7 @@ public:
    *   template<typename T_iterator>
    *   bool operator()(T_iterator first, T_iterator last) const
    *   {
-   *     for (; first != last; ++first, ++n_)
+   *     for (; first != last; ++first)
    *       if (!*first) return false;
    *     return true;
    *   }
