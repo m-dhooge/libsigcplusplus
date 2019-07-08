@@ -25,6 +25,7 @@ set (PACKAGE_VERSION ${SIGCXX_MAJOR_VERSION}.${SIGCXX_MINOR_VERSION}.${SIGCXX_MI
 set (LIBSIGCPP_SOVERSION 0)
 
 option (SIGCXX_DISABLE_DEPRECATED "Disable deprecated" OFF)
+option (BUILD_SHARED_LIBS "Build libsigc++ as a shared library" ON)
 
 project (sigc++)
 
